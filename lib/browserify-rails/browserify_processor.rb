@@ -1,4 +1,5 @@
 require "open3"
+require "tilt"
 
 module BrowserifyRails
   class BrowserifyProcessor < Tilt::Template
